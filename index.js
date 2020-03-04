@@ -108,10 +108,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window binding points to the window ie the entire DOM
+  2. Implicit binding automatically points to what is left of the . in OBJECTS AND METHODS
+  3. New binding - when using a constructor function this points to the instance of the object created.
+  4. Explicit binding(call, apply, bind) is mostly for functions - this binds a certain "this" object to a function.
 */
 
 ///////// END OF CHALLENGE /////////
